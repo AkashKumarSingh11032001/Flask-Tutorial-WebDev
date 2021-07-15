@@ -7,6 +7,7 @@ def hello_world():
     # ---> Importing html file to flask
     return render_template("index.html")
 
+@app.route("/about")
 def about():
     # ---> Importing html file to flask
     return render_template("about.html")
