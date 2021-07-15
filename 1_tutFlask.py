@@ -7,5 +7,8 @@ def hello_world():
     # ---> Importing html file to flask
     return render_template("index.html")
 
+def about():
+    # ---> Importing html file to flask
+    return render_template("index.html")
 
 app.run(debug=True)
