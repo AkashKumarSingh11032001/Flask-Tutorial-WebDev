@@ -9,6 +9,6 @@ def hello_world():
 
 def about():
     # ---> Importing html file to flask
-    return render_template("index.html")
+    return render_template("about.html")
 
 app.run(debug=True)
