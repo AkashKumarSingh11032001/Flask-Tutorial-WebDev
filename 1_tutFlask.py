@@ -7,4 +7,4 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 
-app.run()
+app.run(debug=True)
