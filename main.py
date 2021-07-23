@@ -12,4 +12,14 @@ def about():
     # ---> Importing html file to flask
     return render_template("about.html")
 
+@app.route("/contact")
+def contact():
+    # ---> Importing html file to flask
+    return render_template("contact.html")
+
+@app.route("/post")
+def post():
+    # ---> Importing html file to flask
+    return render_template("post.html")
+
 app.run(debug=True)
